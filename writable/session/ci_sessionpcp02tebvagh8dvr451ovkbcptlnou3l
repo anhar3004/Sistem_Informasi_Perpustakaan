@@ -1,0 +1,14 @@
+__ci_last_regenerate|i:1687396986;_ci_previous_url|s:45:"http://localhost:8080/index.php/data_buku/add";err|s:472:"<!-- DEBUG-VIEW START 1 SYSTEMPATH\Validation\Views\list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>The ISBN field is required.</li>
+					<li>The Judul field is required.</li>
+					<li>The Penulis field is required.</li>
+					<li>The Penerbit field is required.</li>
+					<li>The Tahun Terbit field is required.</li>
+					<li>The Jumlah Halaman field is required.</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH\Validation\Views\list.php -->
+";__ci_vars|a:1:{s:3:"err";s:3:"new";}

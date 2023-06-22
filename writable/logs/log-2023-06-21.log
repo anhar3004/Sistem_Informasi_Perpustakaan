@@ -1,0 +1,477 @@
+CRITICAL - 2023-06-21 19:49:54 --> Undefined variable: titlehead
+in APPPATH\Views\referensi\buku\v_buku_list.php on line 8.
+ 1 APPPATH\Views\referensi\buku\v_buku_list.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: titlehead', 'C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\app\\Views\\referensi\\buku\\v_buku_list.php', 8, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\app\\Views\\referensi\\buku\\v_buku_list.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('referensi/buku/v_buku_list', [], true)
+ 5 APPPATH\Controllers\Referensi\Buku\Buku.php(12): view('referensi/buku/v_buku_list')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Referensi\Buku\Buku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referensi\Buku\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+CRITICAL - 2023-06-21 21:23:45 --> Class 'IonAuth\Models\IonAuthModel' not found
+in APPPATH\Models\Referensi\Buku\BukuModel.php on line 30.
+ 1 APPPATH\Controllers\Referensi\Buku\Buku.php(13): App\Models\Referensi\Buku\BukuModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Referensi\Buku\Buku->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+CRITICAL - 2023-06-21 21:24:14 --> Undefined property: App\Controllers\Referensi\Buku\Buku::$det_kuesioner
+in APPPATH\Controllers\Referensi\Buku\Buku.php on line 32.
+ 1 APPPATH\Controllers\Referensi\Buku\Buku.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Referensi\\Buku\\Buku::$det_kuesioner', 'C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\app\\Controllers\\Referensi\\Buku\\Buku.php', 32, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Referensi\Buku\Buku->lists()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referensi\Buku\Buku))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+CRITICAL - 2023-06-21 21:30:42 --> Undefined variable: periode
+in APPPATH\Controllers\Referensi\Buku\Buku.php on line 33.
+ 1 APPPATH\Controllers\Referensi\Buku\Buku.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: periode', 'C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\app\\Controllers\\Referensi\\Buku\\Buku.php', 33, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Referensi\Buku\Buku->lists()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referensi\Buku\Buku))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+CRITICAL - 2023-06-21 21:34:04 --> Division by zero
+in APPPATH\Controllers\Referensi\Buku\Buku.php on line 35.
+ 1 APPPATH\Controllers\Referensi\Buku\Buku.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zero', 'C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\app\\Controllers\\Referensi\\Buku\\Buku.php', 35, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Referensi\Buku\Buku->lists()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referensi\Buku\Buku))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+CRITICAL - 2023-06-21 21:39:40 --> Undefined property: App\Controllers\Referensi\Buku\Buku::$_edit
+in APPPATH\Controllers\Referensi\Buku\Buku.php on line 45.
+ 1 APPPATH\Controllers\Referensi\Buku\Buku.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Referensi\\Buku\\Buku::$_edit', 'C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\app\\Controllers\\Referensi\\Buku\\Buku.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Referensi\Buku\Buku->lists()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referensi\Buku\Buku))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+CRITICAL - 2023-06-21 21:40:42 --> Undefined property: App\Controllers\Referensi\Buku\Buku::$_edit
+in APPPATH\Controllers\Referensi\Buku\Buku.php on line 45.
+ 1 APPPATH\Controllers\Referensi\Buku\Buku.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Referensi\\Buku\\Buku::$_edit', 'C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\app\\Controllers\\Referensi\\Buku\\Buku.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Referensi\Buku\Buku->lists()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referensi\Buku\Buku))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+CRITICAL - 2023-06-21 21:41:30 --> Undefined property: App\Controllers\Referensi\Buku\Buku::$_edit
+in APPPATH\Controllers\Referensi\Buku\Buku.php on line 45.
+ 1 APPPATH\Controllers\Referensi\Buku\Buku.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Referensi\\Buku\\Buku::$_edit', 'C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\app\\Controllers\\Referensi\\Buku\\Buku.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Referensi\Buku\Buku->lists()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referensi\Buku\Buku))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+CRITICAL - 2023-06-21 21:47:32 --> Call to undefined function App\Controllers\Referensi\Buku\btn_action_group()
+in APPPATH\Controllers\Referensi\Buku\Buku.php on line 55.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Referensi\Buku\Buku->lists()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referensi\Buku\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+CRITICAL - 2023-06-21 21:51:59 --> Call to undefined function App\Controllers\Referensi\Buku\btn_action_group()
+in APPPATH\Controllers\Referensi\Buku\Buku.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Referensi\Buku\Buku->lists()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referensi\Buku\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+ERROR - 2023-06-21 22:18:15 --> mysqli_sql_exception: Unknown column 'a.nip' in 'where clause' in C:\xampp\htdocs\Sistem Informasi Perpustakaan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Sistem Informasi Perpustakaan\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*\nFR...', 0)
+#1 C:\xampp\htdocs\Sistem Informasi Perpustakaan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*\nFR...')
+#2 C:\xampp\htdocs\Sistem Informasi Perpustakaan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*\nFR...')
+#3 C:\xampp\htdocs\Sistem Informasi Perpustakaan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*\nFR...', Array, false)
+#4 C:\xampp\htdocs\Sistem Informasi Perpustakaan\app\Models\Referensi\Buku\BukuModel.php(68): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Sistem Informasi Perpustakaan\app\Controllers\Referensi\Buku\Buku.php(29): App\Models\Referensi\Buku\BukuModel->getData(NULL, 0, '10', NULL, Array)
+#6 C:\xampp\htdocs\Sistem Informasi Perpustakaan\system\CodeIgniter.php(932): App\Controllers\Referensi\Buku\Buku->lists()
+#7 C:\xampp\htdocs\Sistem Informasi Perpustakaan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referensi\Buku\Buku))
+#8 C:\xampp\htdocs\Sistem Informasi Perpustakaan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Sistem Informasi Perpustakaan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Sistem Informasi Perpustakaan\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-06-21 22:18:15 --> Unknown column 'a.nip' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*
+FROM `tb_buku` `a`
+WHERE   (
+`a`.`nip` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`isbn` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`judul` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`penulis` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`penerbit` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`tahun_terbit` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`jumlah_halaman` LIKE \'%naruto%\' ESCAPE \'!\'
+ )
+ORDER BY `a`.`judul` ASC, `a`.`buku_id`
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*
+FROM `tb_buku` `a`
+WHERE   (
+`a`.`nip` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`isbn` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`judul` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`penulis` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`penerbit` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`tahun_terbit` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`jumlah_halaman` LIKE \'%naruto%\' ESCAPE \'!\'
+ )
+ORDER BY `a`.`judul` ASC, `a`.`buku_id`
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*
+FROM `tb_buku` `a`
+WHERE   (
+`a`.`nip` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`isbn` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`judul` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`penulis` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`penerbit` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`tahun_terbit` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`jumlah_halaman` LIKE \'%naruto%\' ESCAPE \'!\'
+ )
+ORDER BY `a`.`judul` ASC, `a`.`buku_id`
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*
+FROM `tb_buku` `a`
+WHERE   (
+`a`.`nip` LIKE :a.nip: ESCAPE \'!\'
+OR  `a`.`isbn` LIKE :a.isbn: ESCAPE \'!\'
+OR  `a`.`judul` LIKE :a.judul: ESCAPE \'!\'
+OR  `a`.`penulis` LIKE :a.penulis: ESCAPE \'!\'
+OR  `a`.`penerbit` LIKE :a.penerbit: ESCAPE \'!\'
+OR  `a`.`tahun_terbit` LIKE :a.tahun_terbit: ESCAPE \'!\'
+OR  `a`.`jumlah_halaman` LIKE :a.jumlah_halaman: ESCAPE \'!\'
+ )
+ORDER BY `a`.`judul` ASC, `a`.`buku_id`
+ LIMIT 10', [...], false)
+ 5 APPPATH\Models\Referensi\Buku\BukuModel.php(68): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Referensi\Buku\Buku.php(29): App\Models\Referensi\Buku\BukuModel->getData(null, 0, '10', null, [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Referensi\Buku\Buku->lists()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referensi\Buku\Buku))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+ERROR - 2023-06-21 22:18:30 --> mysqli_sql_exception: Unknown column 'a.nip' in 'where clause' in C:\xampp\htdocs\Sistem Informasi Perpustakaan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Sistem Informasi Perpustakaan\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*\nFR...', 0)
+#1 C:\xampp\htdocs\Sistem Informasi Perpustakaan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*\nFR...')
+#2 C:\xampp\htdocs\Sistem Informasi Perpustakaan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*\nFR...')
+#3 C:\xampp\htdocs\Sistem Informasi Perpustakaan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*\nFR...', Array, false)
+#4 C:\xampp\htdocs\Sistem Informasi Perpustakaan\app\Models\Referensi\Buku\BukuModel.php(68): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Sistem Informasi Perpustakaan\app\Controllers\Referensi\Buku\Buku.php(29): App\Models\Referensi\Buku\BukuModel->getData(NULL, 0, '10', NULL, Array)
+#6 C:\xampp\htdocs\Sistem Informasi Perpustakaan\system\CodeIgniter.php(932): App\Controllers\Referensi\Buku\Buku->lists()
+#7 C:\xampp\htdocs\Sistem Informasi Perpustakaan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referensi\Buku\Buku))
+#8 C:\xampp\htdocs\Sistem Informasi Perpustakaan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Sistem Informasi Perpustakaan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Sistem Informasi Perpustakaan\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-06-21 22:18:30 --> Unknown column 'a.nip' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `a`.*
+FROM `tb_buku` `a`
+WHERE   (
+`a`.`nip` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`isbn` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`judul` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`penulis` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`penerbit` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`tahun_terbit` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`jumlah_halaman` LIKE \'%naruto%\' ESCAPE \'!\'
+ )
+ORDER BY `a`.`judul` ASC, `a`.`buku_id`
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `a`.*
+FROM `tb_buku` `a`
+WHERE   (
+`a`.`nip` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`isbn` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`judul` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`penulis` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`penerbit` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`tahun_terbit` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`jumlah_halaman` LIKE \'%naruto%\' ESCAPE \'!\'
+ )
+ORDER BY `a`.`judul` ASC, `a`.`buku_id`
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `a`.*
+FROM `tb_buku` `a`
+WHERE   (
+`a`.`nip` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`isbn` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`judul` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`penulis` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`penerbit` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`tahun_terbit` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`jumlah_halaman` LIKE \'%naruto%\' ESCAPE \'!\'
+ )
+ORDER BY `a`.`judul` ASC, `a`.`buku_id`
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `a`.*
+FROM `tb_buku` `a`
+WHERE   (
+`a`.`nip` LIKE :a.nip: ESCAPE \'!\'
+OR  `a`.`isbn` LIKE :a.isbn: ESCAPE \'!\'
+OR  `a`.`judul` LIKE :a.judul: ESCAPE \'!\'
+OR  `a`.`penulis` LIKE :a.penulis: ESCAPE \'!\'
+OR  `a`.`penerbit` LIKE :a.penerbit: ESCAPE \'!\'
+OR  `a`.`tahun_terbit` LIKE :a.tahun_terbit: ESCAPE \'!\'
+OR  `a`.`jumlah_halaman` LIKE :a.jumlah_halaman: ESCAPE \'!\'
+ )
+ORDER BY `a`.`judul` ASC, `a`.`buku_id`
+ LIMIT 10', [...], false)
+ 5 APPPATH\Models\Referensi\Buku\BukuModel.php(68): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Referensi\Buku\Buku.php(29): App\Models\Referensi\Buku\BukuModel->getData(null, 0, '10', null, [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Referensi\Buku\Buku->lists()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referensi\Buku\Buku))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+ERROR - 2023-06-21 22:19:24 --> mysqli_sql_exception: Unknown column 'a.isbn' in 'where clause' in C:\xampp\htdocs\Sistem Informasi Perpustakaan\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Sistem Informasi Perpustakaan\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT count(*)...', 0)
+#1 C:\xampp\htdocs\Sistem Informasi Perpustakaan\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 C:\xampp\htdocs\Sistem Informasi Perpustakaan\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 C:\xampp\htdocs\Sistem Informasi Perpustakaan\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#4 C:\xampp\htdocs\Sistem Informasi Perpustakaan\app\Models\Referensi\Buku\BukuModel.php(99): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Sistem Informasi Perpustakaan\app\Controllers\Referensi\Buku\Buku.php(30): App\Models\Referensi\Buku\BukuModel->getDataCnt(Array)
+#6 C:\xampp\htdocs\Sistem Informasi Perpustakaan\system\CodeIgniter.php(932): App\Controllers\Referensi\Buku\Buku->lists()
+#7 C:\xampp\htdocs\Sistem Informasi Perpustakaan\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referensi\Buku\Buku))
+#8 C:\xampp\htdocs\Sistem Informasi Perpustakaan\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Sistem Informasi Perpustakaan\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Sistem Informasi Perpustakaan\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-06-21 22:19:24 --> Unknown column 'a.isbn' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT count(*) as _cnt
+FROM `tb_buku`
+WHERE   (
+`a`.`isbn` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`judul` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`penulis` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`penerbit` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`tahun_terbit` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`jumlah_halaman` LIKE \'%naruto%\' ESCAPE \'!\'
+ )', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*) as _cnt
+FROM `tb_buku`
+WHERE   (
+`a`.`isbn` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`judul` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`penulis` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`penerbit` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`tahun_terbit` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`jumlah_halaman` LIKE \'%naruto%\' ESCAPE \'!\'
+ )')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*) as _cnt
+FROM `tb_buku`
+WHERE   (
+`a`.`isbn` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`judul` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`penulis` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`penerbit` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`tahun_terbit` LIKE \'%naruto%\' ESCAPE \'!\'
+OR  `a`.`jumlah_halaman` LIKE \'%naruto%\' ESCAPE \'!\'
+ )')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT count(*) as _cnt
+FROM `tb_buku`
+WHERE   (
+`a`.`isbn` LIKE :a.isbn: ESCAPE \'!\'
+OR  `a`.`judul` LIKE :a.judul: ESCAPE \'!\'
+OR  `a`.`penulis` LIKE :a.penulis: ESCAPE \'!\'
+OR  `a`.`penerbit` LIKE :a.penerbit: ESCAPE \'!\'
+OR  `a`.`tahun_terbit` LIKE :a.tahun_terbit: ESCAPE \'!\'
+OR  `a`.`jumlah_halaman` LIKE :a.jumlah_halaman: ESCAPE \'!\'
+ )', [...], false)
+ 5 APPPATH\Models\Referensi\Buku\BukuModel.php(99): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Referensi\Buku\Buku.php(30): App\Models\Referensi\Buku\BukuModel->getDataCnt([...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Referensi\Buku\Buku->lists()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referensi\Buku\Buku))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+CRITICAL - 2023-06-21 22:37:24 --> Call to undefined function App\Controllers\Referensi\Buku\encrypt()
+in APPPATH\Controllers\Referensi\Buku\Buku.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Referensi\Buku\Buku->lists()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referensi\Buku\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+CRITICAL - 2023-06-21 22:38:40 --> Call to undefined function App\Controllers\Referensi\Buku\encrypt()
+in APPPATH\Controllers\Referensi\Buku\Buku.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Referensi\Buku\Buku->lists()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referensi\Buku\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+CRITICAL - 2023-06-21 22:39:07 --> Call to undefined function App\Controllers\Referensi\Buku\encrypt()
+in APPPATH\Controllers\Referensi\Buku\Buku.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Referensi\Buku\Buku->lists()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referensi\Buku\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+CRITICAL - 2023-06-21 22:42:20 --> Call to undefined function App\Controllers\Referensi\Buku\encrypt()
+in APPPATH\Controllers\Referensi\Buku\Buku.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Referensi\Buku\Buku->lists()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referensi\Buku\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+CRITICAL - 2023-06-21 22:42:36 --> Call to undefined function App\Controllers\Referensi\Buku\encrypt()
+in APPPATH\Controllers\Referensi\Buku\Buku.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Referensi\Buku\Buku->lists()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referensi\Buku\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+CRITICAL - 2023-06-21 22:42:59 --> Call to undefined function App\Controllers\Referensi\Buku\encrypt()
+in APPPATH\Controllers\Referensi\Buku\Buku.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Referensi\Buku\Buku->lists()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referensi\Buku\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+CRITICAL - 2023-06-21 22:44:24 --> Call to undefined function App\Controllers\Referensi\Buku\encrypt()
+in APPPATH\Controllers\Referensi\Buku\Buku.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Referensi\Buku\Buku->lists()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referensi\Buku\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+CRITICAL - 2023-06-21 22:48:39 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\Referensi\Buku\Buku.php(13): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Referensi\Buku\Buku->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+CRITICAL - 2023-06-21 22:49:34 --> Call to undefined function App\Controllers\Referensi\Buku\encrypt()
+in APPPATH\Controllers\Referensi\Buku\Buku.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Referensi\Buku\Buku->lists()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referensi\Buku\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+CRITICAL - 2023-06-21 22:51:30 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\BaseController.php(56): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(905): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+CRITICAL - 2023-06-21 23:02:16 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\BaseController.php(56): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(905): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+CRITICAL - 2023-06-21 23:02:23 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\BaseController.php(56): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(905): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+CRITICAL - 2023-06-21 23:03:46 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\BaseController.php(56): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(905): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+CRITICAL - 2023-06-21 23:03:54 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\BaseController.php(56): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(905): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+CRITICAL - 2023-06-21 23:09:47 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\BaseController.php(56): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(905): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+CRITICAL - 2023-06-21 23:09:52 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\BaseController.php(56): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(905): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+CRITICAL - 2023-06-21 23:12:18 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\BaseController.php(56): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(905): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+CRITICAL - 2023-06-21 23:12:27 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\BaseController.php(56): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(905): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+CRITICAL - 2023-06-21 23:24:06 --> Undefined property: App\Controllers\Referensi\Buku\Buku::$encrypt
+in APPPATH\Controllers\Referensi\Buku\Buku.php on line 44.
+ 1 APPPATH\Controllers\Referensi\Buku\Buku.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Referensi\\Buku\\Buku::$encrypt', 'C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\app\\Controllers\\Referensi\\Buku\\Buku.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Referensi\Buku\Buku->lists()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referensi\Buku\Buku))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
+CRITICAL - 2023-06-21 23:24:11 --> Undefined property: App\Controllers\Referensi\Buku\Buku::$encrypt
+in APPPATH\Controllers\Referensi\Buku\Buku.php on line 44.
+ 1 APPPATH\Controllers\Referensi\Buku\Buku.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Referensi\\Buku\\Buku::$encrypt', 'C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\app\\Controllers\\Referensi\\Buku\\Buku.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Referensi\Buku\Buku->lists()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Referensi\Buku\Buku))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\Sistem Informasi Perpustakaan\\public\\index.php')
