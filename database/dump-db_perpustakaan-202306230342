@@ -1,0 +1,127 @@
+-- MySQL dump 10.13  Distrib 5.5.62, for Win64 (AMD64)
+--
+-- Host: localhost    Database: db_perpustakaan
+-- ------------------------------------------------------
+-- Server version	5.5.5-10.4.22-MariaDB
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `tb_anggota`
+--
+
+DROP TABLE IF EXISTS `tb_anggota`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tb_anggota` (
+  `anggota_id` int(11) NOT NULL AUTO_INCREMENT,
+  `nama_lengkap` varchar(255) NOT NULL,
+  `no_hp_wa` varchar(22) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `alamat` varchar(255) NOT NULL,
+  `created_by` int(11) DEFAULT NULL,
+  `created_date` datetime DEFAULT NULL,
+  `updated_by` int(11) DEFAULT NULL,
+  `updated_date` datetime DEFAULT NULL,
+  PRIMARY KEY (`anggota_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tb_anggota`
+--
+
+LOCK TABLES `tb_anggota` WRITE;
+/*!40000 ALTER TABLE `tb_anggota` DISABLE KEYS */;
+INSERT INTO `tb_anggota` VALUES (1,'Anhar Hadhitya','081324544445','anharhadhitya40805@gmail.com','Jalan cirangrang Timur no 26  ',NULL,NULL,NULL,NULL),(2,'Angga Nugraha','081394804440','angga@gmail.com','jalan cirang rang timur',1,'2023-06-22 12:27:45',1,'2023-06-22 12:34:42');
+/*!40000 ALTER TABLE `tb_anggota` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `tb_buku`
+--
+
+DROP TABLE IF EXISTS `tb_buku`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tb_buku` (
+  `buku_id` int(11) NOT NULL AUTO_INCREMENT,
+  `isbn` varchar(100) NOT NULL,
+  `judul` varchar(255) NOT NULL,
+  `penulis` varchar(255) NOT NULL,
+  `penerbit` varchar(255) NOT NULL,
+  `tahun_terbit` int(11) NOT NULL,
+  `jumlah_halaman` int(11) DEFAULT NULL,
+  `created_by` int(11) DEFAULT NULL,
+  `created_date` datetime DEFAULT NULL,
+  `updated_by` int(11) DEFAULT NULL,
+  `updated_date` datetime DEFAULT NULL,
+  PRIMARY KEY (`buku_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tb_buku`
+--
+
+LOCK TABLES `tb_buku` WRITE;
+/*!40000 ALTER TABLE `tb_buku` DISABLE KEYS */;
+INSERT INTO `tb_buku` VALUES (1,'978-979-107-882-5','Akuntansi Pengantar 1','Supardi','Gava Media',2009,251,0,NULL,0,NULL),(2,'978-979-328-876-5','Aplikasi Klinis Induk Ovulasi & Stimulasi Ovariu','Samsulhadi','Sagung Seto',2013,124,NULL,NULL,NULL,NULL),(3,'978-602-867-404-1','Aplikasi Praktis Asuhan Keperawatan Keluarga','Komang Ayu Heni','Sagung Seto',2012,125,NULL,NULL,NULL,NULL),(4,'978-979-293-215-7','A-Z Psikologi : Berbagai kumpulan topik Psikologi','Zainul Anwar','Andi Offset',2012,876,NULL,NULL,NULL,NULL),(5,'978-979-128-365-6','Bangsa gagal ; Mencari identitas kebangsaan','Nasruddin Anshoriy','LKiS',2008,978,NULL,NULL,NULL,NULL),(6,'978-979-338-125-1','Biografi Gus Dur ; The Authorized Biography of KH. Abdurrahman Wahid (Soft Cover)','Greg Barton','LKiS',2011,453,NULL,NULL,NULL,NULL),(20,'979-328-808-6','Buku Ajar Tumbuh Kembang Remaja & Permasalahanya','Soetjiningsih','Sagung Seto',2004,541,NULL,NULL,NULL,NULL);
+/*!40000 ALTER TABLE `tb_buku` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `tb_transaksi`
+--
+
+DROP TABLE IF EXISTS `tb_transaksi`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tb_transaksi` (
+  `transaksi_id` int(11) NOT NULL AUTO_INCREMENT,
+  `buku_id` int(11) NOT NULL,
+  `anggota_id` int(11) NOT NULL,
+  `tgl_peminjaman` datetime NOT NULL,
+  `tgl_pengembalian` datetime NOT NULL,
+  `status` int(11) NOT NULL,
+  `created_by` int(11) DEFAULT NULL,
+  `created_date` datetime DEFAULT NULL,
+  `updated_by` int(11) DEFAULT NULL,
+  `updated_date` datetime DEFAULT NULL,
+  PRIMARY KEY (`transaksi_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tb_transaksi`
+--
+
+LOCK TABLES `tb_transaksi` WRITE;
+/*!40000 ALTER TABLE `tb_transaksi` DISABLE KEYS */;
+INSERT INTO `tb_transaksi` VALUES (1,1,2,'2023-06-22 00:00:00','2023-06-26 00:00:00',0,1,'2023-06-22 18:53:52',1,'2023-06-22 19:00:03'),(3,6,1,'2023-06-22 00:00:00','2023-06-29 00:00:00',1,1,'2023-06-22 19:55:45',1,'2023-06-22 19:56:28');
+/*!40000 ALTER TABLE `tb_transaksi` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping routines for database 'db_perpustakaan'
+--
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2023-06-23  3:42:46
